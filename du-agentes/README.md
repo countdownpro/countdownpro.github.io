@@ -6,7 +6,7 @@
 npm install -g @anthropic-ai/claude-code
 
 # Traer esta carpeta a la compu
-git clone https://github.com/countdownpro/countdownpro.github.io.git
+git clone -b claude/practical-lamport-ni2ypv https://github.com/countdownpro/countdownpro.github.io.git
 cp -r countdownpro.github.io/du-agentes ~/du-agentes
 cd ~/du-agentes && git init && git add . && git commit -m "Sistema de agentes du."
 ```
